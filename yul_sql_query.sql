@@ -104,3 +104,8 @@ DELETE FROM placeofinterest WHERE city IN ('Rome','Vienna');
 
 
 
+
+
+
+
+
