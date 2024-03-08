@@ -1,5 +1,28 @@
 --An Exhaustive list of common SQL commands
 
+--Applications of SQL Scripts
+--Create tables. You can use SQL scripts to create new tables in your database.
+--                This is useful when you need to add new functionality to your application or when you want to store new types of data.
+--Drop tables. SQL scripts often have commands to Drop tables from databases.
+--          This is used before Create table commands to make sure that a table with the same name doesnt exist in the database already.
+--Insert data. SQL scripts can also be used to insert data into your tables.
+--      This is useful when you need to populate your database with test data or when you want to import data from an external source.
+--Update data. You can use SQL scripts to update existing data in your tables. 
+--      This is useful when you need to correct errors or update records based on changing business requirements.
+--Delete data. SQL scripts can also be used to delete data from your tables.
+--      This is useful when you need to remove old or obsolete records from your database.
+--Create views. Views are virtual tables that allow you to query data from multiple tables as if they were a single table.
+--      You can use SQL scripts to create views that simplify complex queries and make it easier to work with your data.
+--Create stored procedures. Stored procedures are precompiled SQL statements that can be executed on demand.
+--     You can use SQL scripts to create stored procedures that encapsulate complex business logic and make it easier to manage your database.     
+--Create triggers. Triggers are special types of stored procedures that are automatically executed in response
+--              to certain events, such as an insert, update, or delete operation. 
+--      You can use SQL scripts to create triggers that enforce business rules and maintain data integrity.
+
+
+
+
+
 --How to create Database Table Structure
 CREATE TABLE EMPLOYEES (
                             EMP_ID CHAR(9) NOT NULL, 
