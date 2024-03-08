@@ -21,8 +21,6 @@
 
 
 
-
-
 --How to create Database Table Structure
 CREATE TABLE EMPLOYEES (
                             EMP_ID CHAR(9) NOT NULL, 
